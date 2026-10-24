@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Review Desk brings local Claude Code reviews, specialist agents and your human review pass into one desktop workspace.">
+  <title>Review Desk — your PR review workspace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav"><a class="brand" href="#"><span class="mark" aria-hidden="true">rd</span> Review Desk</a><a href="#setup">Getting started <span aria-hidden="true">↗</span></a></header>
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="eyebrow"><span class="dot"></span> Desktop beta · 0.1.0-beta.1</div>
+      <h1 id="title">A little more clarity.<br>A better code review.</h1>
+      <p class="intro">Bring your PRs, specialist agents and human review into one place. Review Desk runs locally on your computer using your own Claude Code subscription and GitHub account.</p>
+      <a class="primary" href="#downloads">Get the beta <span aria-hidden="true">↓</span></a>
+      <p class="quiet">For macOS and Windows. No Review Desk account or API key needed.</p>
+    </section>
+    <section class="workflow" aria-label="How Review Desk works">
+      <div><span class="number">01</span><h2>Build your queue</h2><p>Paste a PR or find one from a colleague you follow. Start when you’re ready.</p></div>
+      <div><span class="number">02</span><h2>Send your specialists</h2><p>Choose a team and review depth. Let agents examine different areas of the change.</p></div>
+      <div><span class="number">03</span><h2>Make the final call</h2><p>Inspect findings on the diff, accept or reject comments, and send your review to GitHub.</p></div>
+    </section>
+    <section id="downloads" aria-labelledby="download-title">
+      <div class="section-heading"><div class="eyebrow">YOUR NEXT REVIEW STARTS HERE</div><h2 id="download-title">Choose your computer.</h2><p>Beta 0.1.0-beta.1 · ZIP packages · <a href="https://github.com/sohamsshah/review-desk-downloads/releases/tag/v0.1.0-beta.1">Release notes ↗</a></p></div>
+      <div class="downloads">
+        <article><div class="platform" aria-hidden="true">⌘</div><h3>Mac</h3><p>Apple Silicon · M1, M2, M3 and newer</p><a class="download" href="https://github.com/sohamsshah/review-desk-downloads/releases/download/v0.1.0-beta.1/Review-Desk-0.1.0-beta.1-macOS-arm64.zip">Download for Apple Silicon <span aria-hidden="true">↓</span></a><p class="requirements">macOS 13 or later</p></article>
+        <article><div class="platform" aria-hidden="true">⌘</div><h3>Mac</h3><p>Intel processor</p><a class="download" href="https://github.com/sohamsshah/review-desk-downloads/releases/download/v0.1.0-beta.1/Review-Desk-0.1.0-beta.1-macOS-x64.zip">Download for Intel <span aria-hidden="true">↓</span></a><p class="requirements">macOS 13 or later</p></article>
+        <article><div class="platform" aria-hidden="true">⊞</div><h3>Windows</h3><p>64-bit · Intel or AMD</p><a class="download" href="https://github.com/sohamsshah/review-desk-downloads/releases/download/v0.1.0-beta.1/Review-Desk-0.1.0-beta.1-Windows-x64.zip">Download for Windows <span aria-hidden="true">↓</span></a><p class="requirements">Windows 10 (1809) or later · WebView2</p></article>
+      </div>
+      <aside class="beta-note"><strong>A note about this beta</strong><p>Mac builds are ad-hoc signed and aren’t notarized yet. Windows builds are unsigned. Your system may block the app or show a security prompt. Follow your organization’s security policy; don’t disable system protections.</p><p>Not sure which Mac? Open <strong>Apple menu → About This Mac</strong>: “Chip” means Apple Silicon; “Processor: Intel” means Intel.</p></aside>
+      <p class="integrity"><a href="https://github.com/sohamsshah/review-desk-downloads/releases/download/v0.1.0-beta.1/SHA256SUMS.txt">SHA-256 checksums</a><span aria-hidden="true"> / </span><a href="https://github.com/sohamsshah/review-desk-downloads/releases/download/v0.1.0-beta.1/release-manifest.json">Build manifest</a></p>
+    </section>
+    <section id="setup" class="setup" aria-labelledby="setup-title">
+      <div><div class="eyebrow">FROM DOWNLOAD TO FIRST REVIEW</div><h2 id="setup-title">Make yourself at home.</h2><p>The app’s Connections screen guides you through setup. Your history stays on your computer; your accounts stay with the official CLIs.</p><a class="text-link" href="https://github.com/sohamsshah/review-desk-downloads/releases/download/v0.1.0-beta.1/Getting-Started.md">Read the full getting-started guide ↗</a></div>
+      <ol><li><h3>Extract and open</h3><p>On Mac, open Review Desk. On Windows, extract the entire ZIP and keep the runtime files beside Review Desk.exe.</p></li><li><h3>Connect Claude and GitHub</h3><p>Install the required tools from Connections, then sign in using the official Claude Code and GitHub CLI flows. Reviews use your Claude subscription and share its limits.</p></li><li><h3>Bring your first PR</h3><p>Paste a GitHub PR URL, choose your team and instructions, then start the review. You can inspect comments before posting them.</p></li></ol>
+    </section>
+  </main>
+  <footer><a class="brand" href="#">Review Desk</a><p>Local workspace. Your Claude subscription. Your review.</p><p class="fine">Claude requests go to Anthropic; GitHub requests go to GitHub. Review Desk is an independent tool.</p></footer>
+</body>
+</html>
