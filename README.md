@@ -1,2 +1,5 @@
-# review-desk-downloads
-Review Desk desktop beta downloads and getting-started website. Application source is maintained privately.
+# Review Desk downloads
+
+Desktop beta packages and the download website only. Application source is maintained separately.
+
+https://sohamsshah.github.io/review-desk-downloads/
